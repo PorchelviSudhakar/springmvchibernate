@@ -5,10 +5,10 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-        <property name="hibernate.connection.password">trainee_sysbiz</property>
-        <property name="hibernate.connection.url">jdbc:sqlserver://10.4.48.18:1433;databaseName=BPIGTN_TRAINEE</property>
-        <property name="hibernate.connection.username">bpigtn_trainee</property>
+        <property name="hibernate.connection.password">admin</property>
+        <property name="hibernate.connection.url">jdbc:sqlserver://DESKTOP-DHH30Q5;databaseName=Porchelvi</property>
+        <property name="hibernate.connection.username">admin</property>
         <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
-      <mapping resource="Karthick.hbm.xml"/>
+      <mapping resource="hibernate.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
