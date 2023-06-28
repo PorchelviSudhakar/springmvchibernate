@@ -3,7 +3,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated Jul 18, 2017 2:50:32 PM by Hibernate Tools 4.0.0.Final -->
 <hibernate-mapping>
-    <class name="com.stpl.assignment.model.StudentBean" table="karthick" schema="dbo" catalog="BPIGTN_TRAINEE">
+    <class name="com.stpl.assignment.model.StudentBean" table="student" schema="dbo" catalog="BPIGTN_TRAINEE">
         <id name="studentid" type="int">
             <column name="studentid" />
             <generator class="assigned" />
